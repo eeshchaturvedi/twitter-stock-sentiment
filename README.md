@@ -1,32 +1,50 @@
-# 📈 Twitter Stock Sentiment Analysis
+# 🧠 Twitter Stock Sentiment Analysis
 
-Can Twitter sentiment predict stock market movement?  
-This project explores that question using basic Natural Language Processing (NLP) on tweets related to **Reliance stock**.
+This is a beginner-friendly NLP + Finance mini-project that explores the question:
 
----
+**"Can Twitter sentiment predict stock market movement?"**
 
-## 🧠 What It Does
-
-- Loads a sample dataset of Reliance-related tweets from a JSON file
-- Applies sentiment analysis using the VADER NLP model
-- Adds custom financial keywords to better capture market tone (e.g., "bullish", "dip", "spike")
-- Outputs results to a CSV file
-- (Optional) Visualizes sentiment distribution in a bar chart
+We use Natural Language Processing (NLP) to analyze the sentiment of tweets related to **Reliance stock** and visualize the results — aiming to spot trends or mood shifts that may correlate with market activity.
 
 ---
 
-## 🛠️ Technologies Used
+## 📌 Project Goal
 
-- Python 🐍
-- Pandas
-- VADER SentimentIntensityAnalyzer
-- Matplotlib (for plotting)
+- Learn how **social media sentiment** (specifically Twitter) might influence or reflect **stock market movement**.
+- Apply **text processing**, **sentiment analysis**, and **data visualization** to real-world financial context.
+- Build a mini-project suitable for your **portfolio or LinkedIn**.
 
 ---
 
-## 💻 How to Run This Project
+## 🛠️ Tools & Libraries
 
-### 1. Clone this repo:
-```bash
-git clone https://github.com/eeshchaturvedi/twitter-stock-sentiment.git
-cd twitter-stock-sentiment
+- Python
+- `pandas` – for data handling
+- `textblob` – for sentiment analysis
+- `matplotlib` – for visualization
+
+---
+
+## 📥 How the Data Was Collected
+
+> 📌 Originally, we planned to use `snscrape` to scrape real-time tweets.  
+> ❌ However, due to SSL Certificate issues and Mac compatibility problems, this was not feasible.
+
+### ✅ Instead, we simulated real-world data using a **mock tweet dataset** with realistic stock-related sentiment, formatted like this:
+
+```csv
+date,content
+2024-06-05,Reliance stock showing bullish signs today! 🚀
+2024-06-06,Market dip today. Reliance stock also took a hit.
+
+```
+## 🖼️ Project Screenshots
+
+### 🧾 Sample Tweet Data
+![Sample Tweet Data](screenshots/sample_tweet_data.png)
+
+### 📊 Sentiment CSV Preview
+![Sentiment CSV Preview](screenshots/sentiment_csv_preview.png)
+
+### 📈 Sentiment Distribution Bar Chart
+![Sentiment Distribution](screenshots/sentiment_bar_chart.png)
