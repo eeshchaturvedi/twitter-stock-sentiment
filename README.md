@@ -48,3 +48,10 @@ date,content
 
 ### 📈 Sentiment Distribution Bar Chart
 ![Sentiment Distribution](sentiment_bar_chart.png)
+
+
+## 📈 Real Stock Data (from Yahoo Finance)
+
+We used the `yfinance` library to pull actual daily stock prices for Reliance Industries (RELIANCE.NS) from Yahoo Finance.
+
+Code in [`fetch_stock_data.py`](fetch_stock_data.py)
