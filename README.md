@@ -107,3 +107,19 @@ This project now includes a Dash-based interactive web dashboard!
 ### 🔗 Run the app:
 ```bash
 python app.py
+
+```
+
+## 💻 Dash App Screenshots
+
+### 🧩 Full Dashboard View
+Interactive Dash app combining tweet sentiments and stock prices:
+![Dash App Preview](dash_app_preview.png)
+
+### 📊 Sentiment Distribution Chart
+Bar chart showing daily distribution of positive, negative, and neutral tweets:
+![Sentiment Chart Zoom](sentiment_chart_zoom.png)
+
+### 📈 Stock Price Trend
+Line chart showing Reliance stock closing price over time:
+![Stock Price Zoom](stock_price_zoom.png)
