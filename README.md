@@ -30,17 +30,3 @@ This project explores that question using basic Natural Language Processing (NLP
 ```bash
 git clone https://github.com/eeshchaturvedi/twitter-stock-sentiment.git
 cd twitter-stock-sentiment
-
-
-
-
----
-
-### 🛠 What To Edit:
-- Replace `your-username` in the `git clone` line
-- Update the LinkedIn link (last line)
-- Upload screenshots to the correct `screenshots/` folder in your repo
-
----
-
-Let me know when this is added — or if you want help writing a **LinkedIn post** to show this off.
