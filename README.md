@@ -77,8 +77,24 @@ df = yf.download("RELIANCE.NS", start="2024-06-01", end="2024-06-30")
 df.reset_index(inplace=True)
 df.to_csv("reliance_stock_data.csv", index=False)
 
-
 ```
+
+
+## 🖼️ yFinance Data & Visuals
+
+### 📁 Reliance Stock CSV Preview
+Shows historical stock data collected via yFinance:
+![Stock CSV Preview](screenshots/stock_data_csv_preview.png)
+
+### 📉 Reliance Stock Price Chart
+Line chart of closing prices for the selected date range:
+![Stock Price Chart](screenshots/stock_price_chart.png)
+
+### 🔗 Merged Sentiment + Stock Data
+Combined dataset of tweets, sentiment scores, and corresponding stock prices:
+![Merged Data Preview](screenshots/merged_sentiment_stock_preview.png)
+
+
 ## 📊 Interactive Dash App
 
 This project now includes a Dash-based interactive web dashboard!
