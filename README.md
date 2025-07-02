@@ -41,10 +41,10 @@ date,content
 ## 🖼️ Project Screenshots
 
 ### 🧾 Sample Tweet Data
-![Sample Tweet Data](screenshots/sample_tweet_data.png)
+![Sample Tweet Data](sample_tweet_data.png)
 
 ### 📊 Sentiment CSV Preview
-![Sentiment CSV Preview](screenshots/sentiment_csv_preview.png)
+![Sentiment CSV Preview](sentiment_csv_preview.png)
 
 ### 📈 Sentiment Distribution Bar Chart
-![Sentiment Distribution](screenshots/sentiment_bar_chart.png)
+![Sentiment Distribution](sentiment_bar_chart.png)
