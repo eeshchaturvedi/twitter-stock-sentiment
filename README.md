@@ -55,3 +55,39 @@ date,content
 We used the `yfinance` library to pull actual daily stock prices for Reliance Industries (RELIANCE.NS) from Yahoo Finance.
 
 Code in [`fetch_stock_data.py`](fetch_stock_data.py)
+
+
+
+## 📈 Stock Data with yFinance
+
+We used the `yfinance` Python library to fetch **historical stock price data** for Reliance Industries.
+
+### 🔍 What We Collected:
+- Daily **Open**, **High**, **Low**, **Close**, and **Volume** data
+- Fetched using: `yfinance.download("RELIANCE.NS", start="2024-06-01", end="2024-06-30")`
+
+This data was merged with our sentiment-labeled tweets to explore the **relationship between public sentiment and stock movement**.
+
+### 🧪 Sample Code:
+```python
+import yfinance as yf
+
+# Download stock data
+df = yf.download("RELIANCE.NS", start="2024-06-01", end="2024-06-30")
+df.reset_index(inplace=True)
+df.to_csv("reliance_stock_data.csv", index=False)
+
+
+```
+## 📊 Interactive Dash App
+
+This project now includes a Dash-based interactive web dashboard!
+
+### Features:
+- Date range picker to filter tweet and stock data
+- Dynamic stock price line chart
+- Grouped sentiment bar chart by day
+
+### 🔗 Run the app:
+```bash
+python app.py
