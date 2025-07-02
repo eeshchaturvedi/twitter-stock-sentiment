@@ -28,5 +28,5 @@ This project explores that question using basic Natural Language Processing (NLP
 
 ### 1. Clone this repo:
 ```bash
-git clone https://github.com/your-username/twitter-stock-sentiment.git
+git clone https://github.com/eeshchaturvedi/twitter-stock-sentiment.git
 cd twitter-stock-sentiment
